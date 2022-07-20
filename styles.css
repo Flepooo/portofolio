@@ -1,0 +1,132 @@
+body * {
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: center;
+}
+.header{
+  font-size: 50px;
+  margin: 3rem 0;
+  color: #fff;
+}
+.separator{
+  border: dotted 12px;
+  border-color: #fff;
+  background-color: #000;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto 0 auto;
+}
+.icon {
+  color: #fff;
+  padding: 1rem;
+}
+
+/* main */
+#main{
+  background-color: #000;
+  height: 100vh;
+  padding: 2rem 0;
+}
+.myPhoto{
+  padding: 1.5rem 0;
+  width: 25%;
+}
+.mainheader1{
+  font-size: 3rem;
+  margin: 0 0 2rem 0;
+  padding: 0;
+  color: #fff;
+}
+.mainheader2{
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+  padding: 0;
+  color: #39f93c;
+}
+.navbar {
+  font-size: 2rem;
+  padding: 20px 0 10px 0;
+  display: inline-block;
+}
+.nav-item {
+  padding: 0 25px;
+}
+
+/* about */
+#about{
+  background-color: #000;
+  color: #fff;
+  padding: 4rem 0 6rem 0;
+}
+.about-box {
+  background: rgba(204, 204, 204, 0);
+  color: #fff;
+  padding: 3rem;
+  width: 100%;
+}
+.aboutme{
+  color: #39f93c;
+  border-bottom: 2px solid #39f93c;
+  padding-bottom: 2px;
+}
+
+/* services */
+#services{
+  background-color: #000;
+  padding: 4rem 0;
+}
+.serv-box {
+  background: rgba(204, 204, 204, 0.1);
+  color: #fff;
+  padding: 3rem;
+  width: 100%;
+}
+
+/* contact me */
+#contact_me{
+  background-color: #000;
+  padding: 4rem 0;
+}
+.info-box {
+  background: rgba(204, 204, 204, 0.1);
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+}
+.whatsapp_info{
+  margin: 1rem 0 0 0;
+  font-size: 2rem;
+}
+
+/* footer */
+#footer {
+  color: #fff;
+  background-color: #000;
+  padding: 3rem;
+}
+.credits {
+  margin: 4rem 0 0 0;
+}
+.social {
+  color: #fff;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+.social:hover {
+  color: #39f93c;
+  padding: 0 2rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .myPhoto{
+    padding: 3rem 0;
+    width: 60%;
+  }
+  .mainheader1{
+    font-size: 2rem;
+  }
+  .aboutme{
+    margin-top: 7rem;
+  }
+
+}
