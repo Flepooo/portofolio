@@ -125,8 +125,10 @@ body * {
   .mainheader1{
     font-size: 2rem;
   }
-  .aboutme{
-    margin-top: 7rem;
+  #about{
+    background-color: #000;
+    color: #fff;
+    padding: 10rem 0 6rem 0;
   }
 
 }
